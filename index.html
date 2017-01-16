@@ -1,0 +1,401 @@
+<style>
+#back {
+	background: no-repeat;
+	width: 1100px;
+	height: 500px;
+}
+body {
+	font: 8pt verdana;
+	color: #999;
+	margin: 0;
+	padding: 0;
+	background: url("http://i.imgur.com/2sgDTWR.jpg") repeat;
+}
+body table {
+	display: none;
+}
+img {
+	border: 0;
+}
+.wrap table {
+	display: block;
+	clear: both !important;
+}
+.sf {
+	display: none;
+}
+table {
+	font: 8pt verdana;
+	color: #999;
+	margin: 0;
+}
+table td {
+	vertical-align: top;
+}
+.wrap {
+	width: 1100px;
+	height: auto;
+	margin: 0 auto;
+	min-height: 500px;
+}
+.push {
+	padding: 20px 80px;
+}
+#img_viewer {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#img_viewer li {
+	border: 2px #fff solid;
+	width: 28%;
+	margin: 6px;
+	height: 200px;
+	float: left;
+	overflow: hidden;
+	text-align: right;
+	font: 10pt tahoma;
+	color: #fff;
+}
+#img_viewer li img {
+	width: 150%;
+	margin-left: -10%;
+	margin-top: -20%;
+}
+#img_viewer li div {
+	top: 10px;
+	left: 370px;
+	padding: 10px;
+	background: url("http://i1259.photobucket.com/albums/ii542/puaiohi/white.jpg") repeat;
+	border: 1px #fff solid;
+	display: none;
+	z-index: 2;
+}
+#img_viewer li div img {
+	margin: 0px auto 10px auto;
+	width: auto;
+	height: auto;
+	display: block;
+}
+#img_viewer li:hover div {
+	display: block;
+}
+h1 {
+	margin: -30px 0 0 0;
+	font-size: 8pt;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 5px;
+	color: #fff;
+	background: #eda652;
+	display: inline-block;
+	float: left;
+	clear: both;
+}
+h2 {
+	margin: -30px 0 0 0;
+	font-size: 8pt;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 5px;
+	color: #fff;
+	background: #ea777d;
+	display: inline-block;
+	float: left;
+	clear: both;
+}
+a {
+	text-decoration: none;
+}
+a:link, a:active, a:visited {
+	color: #73aded;
+}
+a:hover {
+	color: #ea777d;
+}
+b {
+	color: #ea777d;
+}
+strong {
+	color: #eda652;
+	font-weight: normal;
+}
+.fullwidth {
+	background: #fff;
+	padding: 20px;
+	margin: 30px 0;
+}
+.clr {
+	clear: both;
+}
+#about h1 {
+	float: left;
+}
+.thirds {
+	margin: -20px;
+}
+.thirds td {
+	background: #fff;
+	padding: 20px;
+	width: 33% !important;
+}
+#icos img {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #ddd;
+	margin: 6px;
+}
+#icos img:hover {
+	border: 1px solid #cacaca;
+}
+#bookmarks {
+	text-align: center;
+}
+#bookmarks img {
+	margin: 10px 9px;
+	border: 1px solid #fff;
+}
+#bookmarks img:hover {
+	border: 1px solid #000;
+}
+.bisou img {
+	width: 100px;
+	height: auto;
+	float: left;
+	margin-right: 10px;
+	border: none;
+}
+.thepets td {
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+.thepets a.pet {
+	margin: 10px 0 20px;
+	display: block;
+	width: 282px;
+	height: 152px;
+	overflow: hidden;
+	border: 1px solid #fff;
+}
+.thepets a.pet:hover {
+	border: 1px solid #000;
+}
+.thepets img {
+	margin-top: -50px;
+}
+.ppp img {
+	margin: 0;
+	margin-right: 5px;
+	width: 50px;
+	height: auto;
+	border: 1px solid #ddd;
+	float: left;
+}
+.ppp p {
+	vertical-align: middle;
+	float: left;
+}
+.goals img {
+	margin: 5px !important;
+}
+.goals a span {
+	display: none;
+	float: left;
+	margin: 0;
+	padding: 10px;
+	border: 1px solid #ddd;
+	background: url("http://i.imgur.com/fVf0XWB.png");
+	color: #999;
+	width: 240px;
+}
+.goals a:hover span {
+	display: block;
+}
+#nav {
+	width: 150px;
+	top: 7px;
+	left: 0;
+}
+#nav b {
+	padding: 7px;
+}
+#nav a {
+	color: #777;
+	display: block;
+	padding: 7px;
+}
+#nav a:hover {
+	color: #ea777d;
+}
+#notable img {
+	margin: 5px;
+	width: 80px;
+	height: auto;
+}
+</style><div id="nav" style="position: fixed;">
+<b>LINKS</b>
+<a href="http://www.neopets.com/userlookup.phtml?user=cloudbrownie"> my lookup</a>
+<a href="/~xaia"> css</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="wrap">
+<div id="back" style="position: fixed; top: 0; z-index: -1;"></div>
+
+<div class="push">
+<div class="fullwidth" id="about">
+
+<h1>Portfolio</h1>
+
+<a href="http://www.neopets.com/petlookup.phtml?pet=Kuromi_San"><img src="http://i.imgur.com/0TGzs6y.png"></a>
+
+<p><strong><b>Kougras</b> are my passion!</strong></p>
+
+<p>I like to sing, dance, pretend, and... I like to have fun </p><h5>fun</h5> <h4>fun</h4> <h3><b>FUN</b></h3>
+
+<p></p>
+<br class="clr"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="wrap-table">
+
+<table class="thirds" width="980" cellspacing="20"><tr><td>
+
+<b> Here I have a list of items I'm looking for, my current neopet goals and wishes I've accomplished recently. </b>
+
+</td><td id="icos" class="goals">
+
+<h2>Seeking</h2>
+
+<a href="#no"><img src="http://images.neopets.com/items/clo_draiksorcerertunic.gif"><span style="position: absolute;">Draik Sorceress Belt and Tunic</span>
+</a>
+
+<a href="#no"><img src="http://images.neopets.com/items/pot_uni_woodland.gif"><span style="position: absolute;">Woodland Uni Morphing Potion</span>
+</a>
+
+<a href="#no"><img src="http://images.neopets.com/items/pot_draik_grey.gif"><span style="position: absolute;">Grey Draik Morphing Potion</span>
+</a>
+
+</td>
+
+
+
+
+
+
+
+
+
+<td id="icos" class="goals">
+
+<h2>goals</h2>
+
+<a href="#no"><img src="http://images.neopets.com/neoboards/avatars/illusensglade.gif"><span style="position: absolute;">Complete 20th Quest</span>
+</a>
+
+<a href="#no"><img src="http://images.neopets.com/neoboards/avatars/werelupe.gif"><span style="position: absolute;">Own a Werelupe</span>
+</a>
+
+<a href="#no"><img src="http://images.neopets.com/neoboards/avatars/ednacackle.gif"><span style="position: absolute;">Edna y u so mean</span>
+</a>
+
+<a href="#no"><img src="http://images.neopets.com/neoboards/avatars/valiant.gif"><span style="position: absolute;">Battledome Fight</span>
+</a>
+
+<a href="#no"><img src="http://images.neopets.com/neoboards/avatars/evilcoconut.gif"><span style="position: absolute;">Knock down a coconut</span>
+</a>
+
+</td>
+
+
+
+
+
+
+
+
+
+<td id="icos" class="goals">
+
+<h2>achievements</h2>
+
+
+<a href="#no"><img src="http://images.neopets.com/items/paintbrush_pastel.gif"><span style="position: absolute;">Painted my Draik!</span>
+</a>
+
+
+</td>
+</tr></table></div>
+
+
+
+
+
+
+
+
+
+<div class="fullwidth">
+<h2>Art</h2>
+<p>
+
+</p><div id="container">
+<ul id="img_viewer"><li>
+<img src="http://i.imgur.com/yOy67PMm.png"><div style="position: fixed;">
+<img src="http://i.imgur.com/yOy67PMm.png">Random</div>
+</li>
+
+
+<li>
+<img src="http://i.imgur.com/tRVoJag.png"><div style="position: fixed;">
+<img src="http://i.imgur.com/tRVoJag.png">Ractious</div>
+</li>
+
+
+<li>
+<img src="http://i.imgur.com/4vm0TBr.png"><div style="position: fixed;">
+<img src="http://i.imgur.com/4vm0TBr.png">Avatoaur</div>
+</li>
+
+
+<li>
+<img src="http://i.imgur.com/aMTU4Ny.png"><div style="position: fixed;">
+<img src="http://i.imgur.com/aMTU4Ny.png">skitty</div>
+</li>
+
+
+
+
+
+
+
+<img src="http://www.transparenttextures.com/patterns/asfalt-light.png" alt="he"><img src="http://www.transparenttextures.com/patterns/asfalt-light.png" alt="he"></ul></div>
+
+
+
+</div>
+
+
+
+© Coding by <a href="/~Xaia">Whitespace</a> | Portfolio of <a href="/userlookup.phtml?user=http%3A%2F%2Fwww.neopets.com%2Fuserlookup.phtml%3Fuser%3Dcloudbrownie">cloudbrownie</a>
+</div>
+</div>
